@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
   }
 }
 ?>
-<form method='post' action='prima.php'>
+<form method='post' action='Latihan3_prima.php'>
   <input type='text' name='bil' class='bil' autocomplete='off'>
   <input type='submit' name='submit' value='submit'>
 </form>
