@@ -1,0 +1,59 @@
+.wrap {
+  background: #10c6d3;
+  width: 784;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+
+header {
+  width: 784;
+  height: 200px;
+  text-align: center;
+}
+
+nav {
+  background: yellow;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  height: auto;
+}
+
+.container article {
+  background: yellow;
+  float: left;
+  height: 100%;
+  width: 584px;
+  text-align: center;
+}
+
+.container article section {
+  padding-bottom: 200px;
+  margin: 20px;
+}
+
+footer {
+  background: Yellow;
+  width: 784;
+  height: 100px;
+  padding-top: 40px;
+  text-align: center;
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
