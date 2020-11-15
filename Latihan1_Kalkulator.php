@@ -21,7 +21,7 @@
   }
   ?>
   <div>
-    <form method="post" action="Latihan_1_Kalkulator.php">
+    <form method="post" action="Latihan1_Kalkulator.php">
       <input type="number" name="bil1" autocomplete="on" placeholder="Bilangan Pertama"><br>
       <input type="number" name="bil2" autocomplete="on" placeholder="Bilangan Kedua">
       <input type="submit" name="hitung" value="Hitung">
