@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<DataDiri>
+	<nama>
+		<awal>Kharisma</awal>
+		<akhir>Anjina</akhir>
+	</nama>
+
+	<saudara>
+		<saudaraKe1> Iis Reungganis </saudaraKe1>
+		<saudaraKe2>Chepy Fatahilla</saudaraKe2>
+	</saudara>
+
+	<orangTua>
+		<ayah>Kersana Sunjaya</ayah>
+		<ibu>Feryani</ibu>
+	</orangTua>
+
+	<hobby>Berenang</hobby>
+
+	<alamat>
+		<desa>Sukaraja</desa>
+		<kecamatan>Prabumulih</kecamatan>
+		<kabupaten>Prabumulih Selatan</kabupaten>
+	</alamat>
+
+	<sosalMedia>
+		<facebook>Kharisma Anjina</facebook>
+		<instagram>cut.anom_</instagram>
+		<github>KharismaAnjina118140048</github>
+	</sosalMedia>
+</dataDiri>

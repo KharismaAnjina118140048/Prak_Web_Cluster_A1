@@ -1,0 +1,25 @@
+{
+	"DataDiri": {
+		"Nama":"Kharisma Anjina",
+		"JenisKelamin" :"Perempuan",
+		"Saudara" : {
+			"Saudara1" :"Iis Reungganis",
+			"Saudara2" :"Chepy Fatahilla"
+		}
+		"OrangTua" :{
+			"Ayah" : "Kersana Sunjaya",
+			"Ibu" : "Feryani"
+		}
+		"Hobby" :"Berenang",
+		"Alamat":{
+			"Desa": "Sukaraja",
+			"Kecamatan":"Prabumulih",
+			"Kabupaten": "Prabumulih Selatan"
+		}
+		"SosialMedia":{
+			"Facebook" :"Kharisma Anjina",
+			"Instagram" :"cut.anom_",
+			"github" :"KharismaAnjina118140048"
+		}
+	}
+}

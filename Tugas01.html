@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="widht-device-widht, initial-scale=1.0">
+	<title>Data Diri</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var xHttp, xmlDoc, xmlDataDiri, pInfo
+		var i
+		xHttp.status=function(){
+			if(this.readyState==4 && this.status==200){
+				siapkanDataDiri(this)
+			}
+		}
+		xHttp.open("GET","http://localhost/pemweb/Praktikum%205/Modul%2011/",true)
+		xHttp.send()
+
+		function siapkanDataDiri(xml){
+			xmlDoc=xml.responseXML
+			xmlDataDiri=xmlDoc.getElementsByTagName('DataDiri')
+
+			for(i=0;i<xmlDataDiri.length;i++){
+				pinfo = document.createElement("p")
+				pinfo.innerHTML=xmlDataDiri[i].childNodes[0].nodeValues
+				document.body.appenChild(pinfo)
+			}
+		}
+	</script>
+
+</body>
+</html>
